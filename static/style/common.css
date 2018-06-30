@@ -1,0 +1,71 @@
+@font-face {
+	font-family:FontAwesome;src:url(static/fonts/fontawesome-webfont.eot?v=4.3.0);src:url(static/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0) format('embedded-opentype'),url(static/fonts/fontawesome-webfont.woff2?v=4.3.0) format('woff2'),url(static/fonts/fontawesome-webfont.woff?v=4.3.0) format('woff'),url(static/fonts/fontawesome-webfont.ttf?v=4.3.0) format('truetype'),url(static/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular) format('svg');font-weight:400;font-style:normal
+}
+
+@font-face {
+	font-family:SiYuanRegular;src:url(static/fonts/Siyuan-Regular.ttf)
+}
+
+@font-face {
+	font-family:SiYuanMedium;src:url(static/fonts/Siyuan-Medium.ttf)
+}
+
+a {
+	text-decoration: none;
+	transition: all .3s ease-out
+}
+
+a:link {
+	color: teal
+}
+
+a:visited {
+	color: teal
+}
+
+a:hover {
+	color: #333
+}
+
+a:active {
+	color: #333
+}
+
+html {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	color: #333;
+	background-color: #E0E0E0;
+	font-family: SiYuanRegular,"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: bolder
+}
+
+h1 {
+	font-size: 72px
+}
+
+h2 {
+	font-size: 20.8px
+}
+
+h3 {
+	font-size: 20px
+}
+
+h4 {
+	font-size: 16px
+}
+
+h5 {
+	font-size: 16px
+}
+
+h6 {
+	font-size: 14px
+}
