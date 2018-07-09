@@ -11,7 +11,8 @@ export default {
     return {
       msg: 'Experience'
     }
-  }
+  },
+  props:['data']
 }
 </script>
 

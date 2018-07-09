@@ -11,7 +11,8 @@ export default {
     return {
       msg: 'Language'
     }
-  }
+  },
+  props:['data']
 }
 </script>
 

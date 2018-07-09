@@ -11,7 +11,8 @@ export default {
     return {
       msg: 'Contact'
     }
-  }
+  },
+  props:['data']
 }
 </script>
 

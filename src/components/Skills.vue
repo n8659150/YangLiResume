@@ -11,7 +11,8 @@ export default {
     return {
       msg: 'Skills'
     }
-  }
+  },
+  props:['data']
 }
 </script>
 

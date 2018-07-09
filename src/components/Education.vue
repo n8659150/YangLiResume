@@ -11,7 +11,8 @@ export default {
     return {
       msg: 'Education'
     }
-  }
+  },
+  props:['data']
 }
 </script>
 
