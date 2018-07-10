@@ -3,14 +3,20 @@
     <div class="container">
       <!-- top -->
       <main>  
-        <Profile :picSrc="picSrc" data="" />
+        <Profile :dataset="profileData" />
         <!-- main left -->
-        <Education data="" />
-        <Language data="" />
-        <Experience data="" />
-        <!-- main right -->
-        <Skills data="" />
-        <Contact data="" />
+        <article class="content row">
+          <article class="column-6 first column">
+            <Education :dataset="educationData" />
+            <Language data="" />
+            <Experience data="" />
+          </article>
+          <!-- main right -->
+          <article class="column-6 last column">
+            <Skills data="" />
+            <Contact data="" />
+          </article>
+        </article>
       </main>
     </div>
   </div>  
@@ -23,6 +29,7 @@ import Language from "./components/Language";
 import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import dataset from './assets/dataset.js';
 export default {
   name: "App",
   components: {
@@ -35,8 +42,12 @@ export default {
   },
   data() {
     return {
-      picSrc: require("./assets/jackli-profile.jpg")
+      profileData: dataset.profile,
+      educationData:dataset.education
     };
+  },
+  mounted(){
+    console.log(dataset.profile.picSrc);
   }
 };
 </script>
@@ -71,6 +82,37 @@ export default {
 	.container {
 		width: 1030px
 	}
+}
+.content {
+	padding: 30px 45px
+}
+
+@media screen and (max-width:767px) {
+	.content {
+		padding: 30px 10px;
+		margin-top: 0;
+		margin-bottom: 5px
+	}
+}
+
+.row {
+	margin-left: -.1px;
+	margin-right: -.1px;
+	overflow: hidden
+}
+
+.first {
+    padding-left: 0 !important;
+}
+.column-6 {
+    width: 50%;
+}
+.column {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
 }
 </style>
 

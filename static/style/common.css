@@ -10,28 +10,28 @@
 }
 a {
 	text-decoration: none;
-	transition: all .3s ease-out
+	transition: all .3s ease-out;
 }
 
 a:link {
-	color: teal
+	color: teal;
 }
 
 a:visited {
-	color: teal
+	color: teal;
 }
 
 a:hover {
-	color: #333
+	color: #333;
 }
 
 a:active {
-	color: #333
+	color: #333;
 }
 
 html {
 	margin: 0;
-	padding: 0
+	padding: 0;
 }
 
 body {
@@ -41,29 +41,33 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
-	font-weight: bolder
+	font-weight: bolder;
 }
 
 h1 {
-	font-size: 72px
+	font-size: 72px;
 }
 
 h2 {
-	font-size: 20.8px
+	font-size: 20.8px;
 }
 
 h3 {
-	font-size: 20px
+	font-size: 20px;
 }
 
 h4 {
-	font-size: 16px
+	font-size: 16px;
 }
 
 h5 {
-	font-size: 16px
+	font-size: 16px;
 }
 
 h6 {
-	font-size: 14px
+	font-size: 14px;
+}
+
+section {
+	margin-bottom:14px;
 }
