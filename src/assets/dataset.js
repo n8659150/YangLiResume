@@ -38,7 +38,23 @@ const education = {
         HD_courses_2:'数据库设计，游戏产业入门'
     }
 }
+const language = {
+    title_ch:'语言水平',
+    title_en:'Language',
+    lang_1:'国语',
+    lang_1_level:'精通',
+    bar1_width:'95%',
+    lang_2:'英语',
+    lang_2_level:'熟练',
+    bar2_width:'85%',
+    lang_3:'沪语',
+    lang_3_level:'地道',
+    bar3_width:'99%',
+    desc1:'能够流畅阅读大部分英文网页，理解技术类官方文档'
+
+}
 export default {
     profile,
-    education
+    education,
+    language
 }

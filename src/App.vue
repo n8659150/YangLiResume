@@ -8,7 +8,7 @@
         <article class="content row">
           <article class="column-6 first column">
             <Education :dataset="educationData" />
-            <Language data="" />
+            <Language :dataset="languageData" />
             <Experience data="" />
           </article>
           <!-- main right -->
@@ -43,7 +43,8 @@ export default {
   data() {
     return {
       profileData: dataset.profile,
-      educationData:dataset.education
+      educationData:dataset.education,
+      languageData:dataset.language
     };
   },
   mounted(){

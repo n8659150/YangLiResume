@@ -181,60 +181,7 @@ export default {
   margin-left: -28px;
   display: inline-block;
 }
-.sec-title-wrapper {
-  overflow-y: hidden;
-  zoom: 1;
-}
-.sec-title-wrapper {
-  overflow-y: hidden;
-  zoom: 1;
-}
 
-.sec-title {
-  float: left;
-  padding: 0;
-  margin: 0 0 0 10px;
-  overflow-y: hidden;
-  zoom: 1;
-}
-
-.sec-title-ch {
-  font-size: 20px;
-  float: left;
-  font-weight: 700;
-  font-family: SiYuanMedium;
-}
-
-.sec-title-en {
-  font-size: 18px;
-  float: left;
-  clear: left;
-  color: #bb5207;
-  font-variant: small-caps;
-  font-weight: 700;
-  font-family: SiYuanMedium;
-  line-height: 18px;
-}
-
-.sec-title-wrapper::before {
-  font-family: FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transform: translate(0, 0);
-  background-color: #333;
-  color: #fff;
-  border-radius: 100%;
-  float: left;
-  width: 32px;
-  height: 32px;
-  padding: 6px;
-  text-align: center;
-  line-height: 32px;
-  font-size: 26px;
-  content: "\f092";
-}
 
 .timeline-wrapper {
   overflow-y: hidden;
