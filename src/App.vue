@@ -9,7 +9,7 @@
           <article class="column-6 first column">
             <Education :dataset="educationData" />
             <Language :dataset="languageData" />
-            <Experience data="" />
+            <Experience :dataset="experienceData" />
           </article>
           <!-- main right -->
           <article class="column-6 last column">
@@ -19,6 +19,7 @@
         </article>
       </main>
     </div>
+    <footer></footer>
   </div>  
 </template>
 
@@ -44,7 +45,8 @@ export default {
     return {
       profileData: dataset.profile,
       educationData:dataset.education,
-      languageData:dataset.language
+      languageData:dataset.language,
+      experienceData:dataset.experience
     };
   },
   mounted(){
@@ -114,6 +116,26 @@ export default {
     padding-left: 15px;
     padding-right: 15px;
     float: left;
+}
+footer {
+	text-align: center;
+	margin: 30px 6px
+}
+
+@media print {
+	.container {
+		width: 1000px;
+		margin-top: 0;
+		box-shadow: none
+	}
+
+	body {
+		background: 0 0
+	}
+
+	aside,footer {
+		display: none
+	}
 }
 </style>
 

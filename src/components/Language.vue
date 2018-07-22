@@ -3,7 +3,7 @@
     <section class="language">
       <div class="sec-title-wrapper">
         <h3 class="sec-title">
-          <span class="sec-title-ch">{{dataset.title_ch}}</span>
+          <span class="sec-title-ch">{{dataset.title_cn}}</span>
           <span class="sec-title-en">{{dataset.title_en}}</span>
         </h3>
       </div>

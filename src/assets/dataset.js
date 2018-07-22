@@ -39,7 +39,7 @@ const education = {
     }
 }
 const language = {
-    title_ch:'语言水平',
+    title_cn:'语言水平',
     title_en:'Language',
     lang_1:'国语',
     lang_1_level:'精通',
@@ -51,10 +51,19 @@ const language = {
     lang_3_level:'地道',
     bar3_width:'99%',
     desc1:'能够流畅阅读大部分英文网页，理解技术类官方文档'
-
+}
+const experience = {
+    title_cn:'项目与工作经验',
+    title_en:'Experience',
+    experience1_place:'Tekkers 极客团队 - 布里斯班',
+    experience1_time:'2015.07 ~ 至今',
+    experience1_position:'前端工程师',
+    experience1_jd:'分析项目需求，制定计划，并按主流项目开发流程（敏捷开发），实现前端组件的开发与维护。与后端工程师配合,实现项目功能对接',
+    experience1_tasks:['手机扫码点餐应用（支持iOS/安卓）','澳大利亚著名面包店BreadTop面包供应商的订单管理系统','澳大利亚热销净水器品牌ShieldFilter电商官网']
 }
 export default {
     profile,
     education,
-    language
+    language,
+    experience
 }
